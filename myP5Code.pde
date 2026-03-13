@@ -11,8 +11,15 @@ setup = function() {
     fill(0, 255 - i, 0);
     text("⸙", 420-i, 390);
   }  
+var myAnimals = ["Fox", "Bear", "Bird", "Deer", "Frog"];
 
+var animalNum = 0;
+while(animalNum < myAnimals. length){
+  text(myAnimals[animalNum], 10, 30 +animalNum*30);
+  animalNum++;
+}
   
+
 };
 
 
